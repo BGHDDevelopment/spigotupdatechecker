@@ -17,7 +17,7 @@ public class UpdateChecker
     @SuppressWarnings("unused")
 	public String getLatestVersion() {
         try {
-            final int resource = 40929;
+            final int resource = IDHERE;
             final HttpURLConnection con = (HttpURLConnection)new URL("https://api.spigotmc.org/legacy/update.php?resource=IDHERE").openConnection();
             con.setDoOutput(true);
             con.setRequestMethod("POST");
