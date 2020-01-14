@@ -1,6 +1,2 @@
 # spigotupdatechecker
-Code for the update checker (SpigotMC)
-
-To use this update checker simply go to UpdateChecker class and change IDHERE in the code to your spigot resource URL example: 40929
-
-Edit: This will only work with Spigot plugins
+Due to the new API system which spigot switched too, you must use our new method for update checking - https://github.com/BGHDDevelopment/UpdateCheckerUpdatedVersion
